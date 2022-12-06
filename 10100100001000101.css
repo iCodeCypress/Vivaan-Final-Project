@@ -1,0 +1,117 @@
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 300px;
+  justify-content: space-evenly;
+  border-radius: 100px;
+  text-decoration: underline;
+  margin: 500px;
+}
+h2 {
+  text-align: center;
+  display: flex;
+  font-weight: 300;
+  font-size: 300px;
+  justify-content: space-evenly;
+  border-radius: 100px;
+  text-decoration: underline;
+  margin: 500px;
+  background-color: azure;
+  color: blue;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 300px;
+  font-family: cursive;
+  border-radius: 100px;
+  justify-content: center;
+  font-weight: 300;
+  margin: 500px;
+  background-color: coral;
+  color: cyan;
+}
+
+h4 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 300px;
+  font-family: cursive;
+  border-radius: 100px;
+  text-decoration: underline;
+  margin: 500px;
+  background-color: aqua;
+  color: chartreuse;
+}
+h5 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: x-large;
+  font-family: cursive;
+  font-size: 300px;
+  font-style: italic;
+  border-radius: 100px;
+}
+h6 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+  font-size: 300px;
+  font-style: italic;
+  border-radius: 100px;
+  text-decoration: underline;
+  margin: 500px;
+  color: aqua;
+  background-color: brown;
+  padding: top 100px;
+}
+button:hover {
+  color: aqua;
+  background-color: red;
+}
+.roblox:hover {
+  background-color: aqua;
+}
+.hi:hover {
+  background-color: coral;
+}
+.ello:hover {
+  background-color: rgb(0, 195, 255);
+}
+.asked:hover {
+  background-color: darkorange;
+}
+.vivaan:hover {
+  background-color: crimson;
+  color: aqua;
+}
+.BRUH:hover {
+  background-color: blue;
+  color: darkorange;
+}
+.HELLO:hover {
+  background-color: black;
+  color: white;
+}
+.popUp {
+  animation: popUp 3s infinite;
+}
+
+@keyframes popUp {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+} 
